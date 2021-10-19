@@ -5,7 +5,7 @@ An issue was discovered in Orckestra C1 CMS through 6.6. The EntityTokenSerializ
 
 RCE with low-privilege user
 ```
-python .\check.py -u http://localhost:36859 --cookies <cookie> --cmd <cmd>
+python .\exploit.py -u http://localhost:36859 --cookies <cookie> --cmd <cmd>
 ```
 # Ref
 https://viblo.asia/p/think-out-of-the-box-trong-viec-tim-kiem-lo-hong-net-deserialization-djeZ1zw8lWz
